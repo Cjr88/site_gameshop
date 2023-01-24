@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    padding: 16px 0;
+    background-color: rgba(4, 4, 36, 0.965);
+    color: #fff;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brands-list img{
+    height: 80px;
+}
+.brands-list li{
+    display: inline;
+}
+
+section .container{
+    align-items: flex-start;
+}
+section .container ul li img{
+    width: 50%;
+    margin-left: 15px;
+  
+}
+section{
+    padding: 24px 0;
+}
+section h2{
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+  color:  rgba(17, 17, 65, 0.965);
+}
+section p{
+    margin-bottom: 8px;
+    
+    font-size: 17px;
+  
+}
+.img-principal{
+    width: 100%;
+    margin-top: 15px;
+    margin: 5px;
+}
+#contact .container{
+    display: block;
+}
+.metodos{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea{
+    resize: none;
+}
+#social-links li{
+    display: inline;
+    margin-right: 6px;
+    
+   
+}
+section h3{
+    color:  rgba(4, 4, 36, 0.965);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+section .container h2{
+    margin-bottom: 50px;
+}
+form button{
+    background-color: rgba(4, 4, 36, 0.965);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: rgba(15, 15, 69, 0.965);
+}
+input:focus, textarea:focus{
+    outline-color: rgba(4, 4, 19, 0.965);
+}
+footer{
+    padding: 16px 0;
+    background-color: rgba(4, 4, 36, 0.965);
+    color: #fff;
+    text-align: center;
+}
